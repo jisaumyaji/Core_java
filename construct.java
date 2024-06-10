@@ -1,7 +1,7 @@
 public class construct {
     String name;
     int age;
-     construct(){
+ construct(){
         this.name= "Saumya";
         this.age=10;
         System.out.println(name+age);
