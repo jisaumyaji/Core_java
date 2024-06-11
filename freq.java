@@ -1,5 +1,3 @@
-
-
 public class freq {
     public void hello(String str) {
         char[] arr = str.toCharArray();
