@@ -9,6 +9,7 @@ public class SinglyLinkedList {
         this.data = data;
         this.next = null;
       }
+      // this is a comment
     }
   
     private Node head; // Reference to the head node of the list
