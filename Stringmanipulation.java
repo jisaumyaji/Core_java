@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Stringmanipulation {
+public class Stringmanipulation! {
     public static void main(String[] args){
         String s = "hello";
         char arr[] = s.toCharArray();
