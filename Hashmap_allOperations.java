@@ -7,7 +7,7 @@ public class Hashmap_allOperations {
        map.put(3,"Apple");
        map.put(4,"Oranges");
        map.put(5,"Banana");
-       System.out.println(map);
+    //    System.out.println(map);
     //    map.get prints the values of the key value pair 
     //    System.out.println(map.get(1));
     //    System.out.println(map.get(2));
@@ -16,22 +16,22 @@ public class Hashmap_allOperations {
     //    System.out.println(map.get(5));
 
     // System.out.println(map.size());
-
-// int n = map.size();
-// for (int i=0;i<n;i++){
-//     System.out.print(map.get(1+i)+" ");
-// }
+                          //Iteration
+int n = map.size();
+for (int i=0; i<n; i++){
+    System.out.print(map.get(1+i)+" ");
+}
     
-// System.out.println(map.containsKey(4));
-System.out.println(map.containsValue("Banana"));
-      System.out.println(map.isEmpty());
+// // System.out.println(map.containsKey(4));
+// System.out.println(map.containsValue("Banana"));
+//       System.out.println(map.isEmpty());
 
 
-      map.remove(2);
-      System.out.println(map);
+//       map.remove(2);
+//       System.out.println(map);
 
-System.out.println(map.keySet());
-System.out.println(map.values());
+// System.out.println(map.keySet());
+// System.out.println(map.values());
 
 
     }
